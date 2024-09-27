@@ -13,6 +13,10 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
     },
+    screens: {
+      'mobile': { 'max': '639px' },  // breakpoint for mobile
+      'desktop': '640px',            // breakpoint for desktop
+    },
   },
   plugins: [],
 };
