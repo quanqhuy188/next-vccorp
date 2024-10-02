@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.hexagon {
+    width: 100px;
+    height: 100px;
+    background-color: #6C63FF;
+    mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M50 5Q 75 5 87.5 25Q 100 45 87.5 65Q 75 85 50 85Q 25 85 12.5 65Q 0 45 12.5 25Q 25 5 50 5" fill="white"/></svg>');
+  }
